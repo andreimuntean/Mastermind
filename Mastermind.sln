@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mastermind", "Mastermind\Mastermind.csproj", "{28419D2B-992F-44CF-8CEB-F75B95D46D77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mastermind.Tests", "Mastermind.Tests\Mastermind.Tests.csproj", "{247B5D7A-8556-4CF2-8B1C-463EBBD9AE6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28419D2B-992F-44CF-8CEB-F75B95D46D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28419D2B-992F-44CF-8CEB-F75B95D46D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28419D2B-992F-44CF-8CEB-F75B95D46D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28419D2B-992F-44CF-8CEB-F75B95D46D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247B5D7A-8556-4CF2-8B1C-463EBBD9AE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247B5D7A-8556-4CF2-8B1C-463EBBD9AE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247B5D7A-8556-4CF2-8B1C-463EBBD9AE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247B5D7A-8556-4CF2-8B1C-463EBBD9AE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
