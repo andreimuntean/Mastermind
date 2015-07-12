@@ -1,4 +1,6 @@
-﻿using System.Data.Entity.Migrations;
+﻿using System.Configuration;
+using System.Data.Entity.Infrastructure;
+using System.Data.Entity.Migrations;
 
 namespace Mastermind.Migrations
 {
@@ -8,7 +10,13 @@ namespace Mastermind.Migrations
 
         static MigrationManager()
         {
-            configuration = new Configuration();
+            var connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+            var providerName = ConfigurationManager.ConnectionStrings["DefaultConnection"].ProviderName;
+
+            configuration = new Configuration()
+            {
+                TargetDatabase = new DbConnectionInfo(connectionString, providerName)
+            };
         }
 
         public static void Update()

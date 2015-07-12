@@ -9,7 +9,7 @@ namespace Mastermind.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
             ContextKey = "Mastermind.Models.ApplicationDbContext";
         }
 
